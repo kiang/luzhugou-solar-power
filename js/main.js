@@ -120,8 +120,26 @@ var lines = new ol.layer.Vector({
   style: lineTextStyle
 });
 
+var wetlandStyle = new ol.style.Style({
+  stroke: new ol.style.Stroke({
+      color: 'rgba(255, 193, 7, 1)',
+      width: 1
+  }),
+  fill: new ol.style.Fill({
+      color: 'rgba(255, 35, 7, 0.5)'
+  })
+});
+
+var wetland = new ol.layer.Vector({
+  source: new ol.source.Vector({
+      url: 'geojson/wetland.json',
+      format: new ol.format.GeoJSON()
+  }),
+  style: wetlandStyle
+});
+
 var map = new ol.Map({
-  layers: [baseLayer, sunProj, vectorPoints, lines],
+  layers: [baseLayer, sunProj, vectorPoints, lines, wetland],
   target: 'map',
   view: appView
 });
