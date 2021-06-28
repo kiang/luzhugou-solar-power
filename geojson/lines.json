@@ -1,0 +1,85 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "zone": "34",
+          "distance": "4.15公里"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              120.13880252838135,
+              23.241779862473344
+            ],
+            [
+              120.0994062423706,
+              23.23294665177241
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "zone": "28",
+          "distance": "5.90公里"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              120.1379871368408,
+              23.263820904173194
+            ],
+            [
+              120.19549369812012,
+              23.268157710491074
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "zone": "32",
+          "distance": "1.00公里"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              120.1379871368408,
+              23.26389975645688
+            ],
+            [
+              120.14631271362305,
+              23.26839425950362
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "zone": "31",
+          "distance": "1.29公里"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              120.20253181457521,
+              23.258616550302104
+            ],
+            [
+              120.19815444946289,
+              23.24773406292632
+            ]
+          ]
+        }
+      }
+    ]
+  }

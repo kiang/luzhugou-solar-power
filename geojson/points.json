@@ -1,0 +1,69 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "zone": "28",
+          "day": "2019-10-29",
+          "name": "灰瑤港玉旨宮",
+          "address": "台南市北門區玉港里15之1號"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            120.138062,
+            23.263938
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "zone": "31",
+          "day": "2019-10-29",
+          "name": "宅仔港活動中心",
+          "address": "台南市學甲區宅港里宅子港61號"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            120.202446,
+            23.258548
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "zone": "32",
+          "day": "2019-10-30",
+          "name": "灰瑤港玉旨宮",
+          "address": "台南市北門區玉港里15之1號"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            120.138062,
+            23.263938
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "zone": "34",
+          "day": "2019-11-09",
+          "name": "北門區仁里里活動中心",
+          "address": "台南市北門區溪底寮段二重港小段27號"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            120.138892,
+            23.241532
+          ]
+        }
+      }
+    ]
+  }
